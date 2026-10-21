@@ -1,0 +1,9 @@
+type Query {
+  mediaServiceInfo: MediaServiceInfo!
+}
+
+type MediaServiceInfo {
+  name: String!
+  version: String!
+}
+
